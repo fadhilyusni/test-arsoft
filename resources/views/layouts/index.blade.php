@@ -18,6 +18,12 @@
             border-radius:50%;
             background-color:green;
         }
+        .circle_red{
+            width:30px;
+            height:30px;
+            border-radius:50%;
+            background-color:red;
+        }
         .badge{
             background-color:orange;
             color:white;
@@ -87,7 +93,7 @@
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="alert alert-success" role="alert">
-                            Succes
+                            Complete
                         </div>
                         <small class="text-muted">1 tahun yang lalu</small>
                     </div>
@@ -98,14 +104,14 @@
                 <div class="card mb-4 shadow-sm">
                     <div class="card-body">
                         <div class="d-flex justify-content-between align-items-center">
-                            <div class="circle mb-3">
+                            <div class="circle_red mb-3">
                         </div>
                     </div>
                     <span class="badge">01 january 2022</span>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                     <div class="d-flex justify-content-between align-items-center">
-                        <div class="alert alert-success" role="alert">
-                            Succes
+                        <div class="alert alert-danger" role="alert">
+                        Incomplete
                         </div>
                         <small class="text-muted">1 tahun yang lalu</small>
                     </div>
@@ -123,7 +129,25 @@
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="alert alert-success" role="alert">
-                            Succes
+                        Complete
+                        </div>
+                        <small class="text-muted">1 tahun yang lalu</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="circle_red mb-3">
+                        </div>
+                    </div>
+                    <span class="badge">01 january 2022</span>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="alert alert-danger" role="alert">
+                            Incomplete
                         </div>
                         <small class="text-muted">1 tahun yang lalu</small>
                     </div>
@@ -141,25 +165,7 @@
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="alert alert-success" role="alert">
-                            Succes
-                        </div>
-                        <small class="text-muted">1 tahun yang lalu</small>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-                <div class="card mb-4 shadow-sm">
-                    <div class="card-body">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="circle mb-3">
-                        </div>
-                    </div>
-                    <span class="badge">01 january 2022</span>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div class="alert alert-success" role="alert">
-                            Succes
+                            Complete
                         </div>
                         <small class="text-muted">1 tahun yang lalu</small>
                     </div>
@@ -228,7 +234,7 @@
         </span>
         </div>
         <div class="mb-3">
-        <label for="exampleColorInput" class="form-label">Color picker</label>
+        <label for="exampleColorInput" class="form-label">Kategori warnah tugas</label>
         <input type="color" class="form-control form-control-color" id="exampleColorInput" value="#563d7c" title="Choose your color">
         </div>
         <div class="mb-3">
@@ -236,9 +242,9 @@
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
         </div>
     </div>
-    </div>
+    <div class="d-grid gap-2 d-md-flex justify-content-md-end mt-3">
+    <button type="button" class="btn btn-primary">Simpan  Tugas ini</button>
     </div>
 </div>
-
 </body>
 </html>
